@@ -73,9 +73,10 @@ const CareerPage: NextPage = () => {
   return (
     <Box>
       <SEO
-        title="What We Do | PITBP"
-        description="Innovative Solutions Strategic Technology | Services By PITBP"
-      />
+      title="Beyond Just Protection We Uncover Truths | PITBP"
+      description="Our cyber forensics services go beyond basic investigation, providing in-depth analysis, digital evidence recovery, and comprehensive solutions to uncover and prevent cyber threats."
+    />
+
       <Box>
         <HeroSection />
 
@@ -103,15 +104,15 @@ const HeroSection: React.FC = () => {
             px="0"
             title={
               <FallInPlace>
-                 Innovative  Solutions
-                <Br /> Strategic Technology
+                Beyond Defense
+                <Br /> We Unveil Hidden Threats
               </FallInPlace>
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                At Plus IT Business Park, we offer a comprehensive range of services designed to propel your business forward in the digital age. 
-                From cutting-edge web and app development that brings your ideas to life, to powerful digital marketing and SEO strategies that increase visibility and engagement,
-                 we ensure your brand stands out. Our cloud and infrastructure solutions provide secure, scalable systems, while our custom software development tailors solutions to your specific needs.
+              We provide more than just cyber forensic services; we uncover hidden insights and digital evidence with precision. Our approach goes beyond standard investigative techniques,
+               ensuring thorough analysis, timely identification of breaches, and a clear pathway to resolution.
+               With our expertise, we help secure your digital landscape and provide critical data for decision-making, enabling swift action and long-term protection.
                
               </FallInPlace>
             }
@@ -156,17 +157,14 @@ const HighlightsSection = () => {
         </Text>
       </HighlightsItem>
       <HighlightsTestimonialItem
-        name="Surath Lal"
-        description="Operations Head, Edupace "
-        avatar="/static/images/edu.jpg"
+        name="Uncovering the Truth in Your Digital Landscape"
+        description="with Expert Cyber Forensics Solutions"
+        avatar="/static/images/Forensics.jpg"
         gradient={["pink.200", "purple.500"]}
       >
-        “I am truly impressed with the great work-life balance at plus IT Business Park Thrissur.
-The amazing work environment, fantastic team, and supportive team lead make every
-day enjoyable. The administration is incredibly supportive, ensuring a smooth and
-efficient workflow. The Go Green campus and office cleanliness add to the overall
-positive atmosphere. Free food, diverse projects with social commitments, and regular
-vacation opportunities make it an enriching experience.”
+         We prioritize the integrity of your digital environment. Our approach focuses on uncovering the root cause of cyber incidents 
+         and providing comprehensive forensic analysis tailored to your specific needs. Through meticulous data examination, proactive threat identification, and detailed incident reporting, 
+         we help you maintain resilience against cyber threats while empowering you to take informed action to prevent future attacks.
       </HighlightsTestimonialItem>
       <HighlightsItem
         colSpan={[1, null, 2]}
@@ -181,30 +179,27 @@ vacation opportunities make it an enriching experience.”
         
         <br/>
         <br/>
+        Tools and Methods we make use of
         
-        Technologies We Work With
-
         </Text>
-        
+
 
         <Wrap mt="8">
           {[
-            "Web Development",
-            "Mobile App Development",
-            "Cyber Security",
-            "Digital Marketing",
-            "App Deployment",
-            "UI/UX Development",
-            "Cyber Forensics",
-            "Server Management",
-            "Cloud Solutions",
-            "Graphic Design",
-            "Search Engine Optimization (SEO)",
-            "Content Management Systems (CMS)",
-            "E-commerce Development",
-            "Blockchain Development",
-            "Penetration Testing",
-            "DevSecOps"
+            "Autopsy ",
+            "Wireshark ",
+            "Disk Imaging",
+            "Memory Analysis",
+            "Network Forensics",
+            "Malware Analysis  ",
+            "Mobile Device Forensics",
+            "Log Analysis",
+            "Data Recovery ",
+            "Compliance Management Tools",
+            "Cryptography and Decryption",
+            "Volatility ",
+            "Registry Recon",
+            "SIFT Workstation"
 
           ].map((value) => (
             <Tag
@@ -218,8 +213,7 @@ vacation opportunities make it an enriching experience.”
             </Tag>
           ))}
         </Wrap>
-
-
+        
       </HighlightsItem>
     </Highlights>
   );
@@ -236,7 +230,7 @@ const FeaturesSection = () => {
           textAlign="left"
           as="p"
         >
-          Areas We Work with
+          Why US ?
           <Br /> 
         </Heading>
       }
@@ -244,10 +238,9 @@ const FeaturesSection = () => {
         <>
          
           <Br />
-          At PLUS IT Park, we are committed to harnessing the latest technologies to elevate your business in the digital landscape. 
-          Our expertise spans the development of dynamic websites, intuitive mobile applications, and sophisticated software solutions, including ERP systems and progressive web apps. 
-          We embrace cutting-edge tools to deliver innovative solutions tailored to your unique needs. In addition to development, we prioritize your online visibility by implementing best practices for SEO and digital marketing, ensuring your brand effectively reaches and engages your target audience. With a focus on creating impactful digital experiences, 
-          we’re dedicated to turning your vision into reality and driving tangible results for your business.
+          At PLUS IT Park, we provide end-to-end cyber forensics solutions that are designed to uncover, analyze, and act on digital evidence effectively. Our specialized team employs cutting-edge forensics methodologies such as data recovery, forensic imaging, and deep analysis of compromised systems. 
+          Using advanced tools like EnCase, FTK, and Volatility, we help identify vulnerabilities, trace malicious activities, and preserve crucial data for legal proceedings. With a focus on maintaining the integrity of evidence and adhering to industry standards, we ensure a thorough investigation process that supports your legal and security needs. 
+          Our commitment to swift and accurate forensic analysis helps you mitigate damage, recover essential data, and strengthen your defenses for the future.
         </>
       }
       align="left"
@@ -255,65 +248,65 @@ const FeaturesSection = () => {
       iconSize={4}
       features={[
         {
-          title: "Web Development.",
+          title: "Digital Forensics Investigation ",
           icon: FiTerminal ,
           description:
-            "We create visually striking and performance-driven websites that adapt seamlessly across all devices, ensuring your online presence stands out in today’s digital landscape.",
+            "In-depth analysis of compromised systems to trace and recover digital evidence for security and legal purposes.",
           variant: "inline",
         },
         {
-          title: "Mobile App Development ",
+          title: "Data Encryption",
           icon: FiTerminal,
           description:
-            "Empower your business with tailor-made mobile applications, built to deliver a user-friendly experience and optimized for both Android and iOS platforms.",
+            "Implementation of encryption techniques to protect sensitive data both in transit and at rest.",
           variant: "inline",
         },
         {
-          title: "UI/UX Design",
+          title: "Network Traffic Analysis ",
           icon: FiTerminal ,
           description:
-            "Our design experts focus on user-centric interfaces, ensuring each touchpoint not only looks great but enhances the overall customer journey for higher engagement.",
+            "Monitoring and analyzing network traffic to detect suspicious behavior and potential security breaches.",
           variant: "inline",
         },
         {
-          title: "DevOps & Automation",
+          title: "Malware Analysis",
           icon: FiTerminal,
           description:
-            "Our DevOps services streamline your software delivery, automating tasks to improve collaboration, speed, and the reliability of your deployments, reducing time to market.",
+            "Identifying, dissecting, and understanding malware behavior to develop effective defense strategies.",
           variant: "inline",
         },
         {
-          title: "Employee Development Programs",
+          title: "Cloud Security Monitoring",
           icon: FiTerminal,
-          description:"Access tailored development programs that align with your career goals and aspirations.",
+          description:"Continuous monitoring of cloud environments to detect vulnerabilities and ensure compliance with security standards.",
           variant: "inline",
         },
         {
-          title: "Custom Software Development ",
-          icon: FiTerminal,
-          description:
-            "We build bespoke software solutions tailored to your specific business needs, helping you streamline operations, improve efficiency, and gain a competitive edge with personalized technology.",
-          variant: "inline",
-        },
-        {
-          title: "Blockchain Solutions ",
+          title: "Data Loss Prevention (DLP)",
           icon: FiTerminal,
           description:
-            "Explore secure, transparent, and tamper-proof blockchain solutions tailored for industries like finance, supply chain, and more, adding trust and efficiency to your operations",
+            "Strategies and technologies to prevent the loss of sensitive data through encryption, monitoring, and policy enforcement.",
           variant: "inline",
         },
         {
-          title: "Digital Marketing Services",
+          title: "Incident Log Analysis",
           icon: FiTerminal,
           description:
-            "Boost your brand’s visibility and reach with our end-to-end digital marketing strategies, combining SEO, PPC, social media, and content marketing to drive results.",
+            "Reviewing logs from security systems to identify and respond to security incidents",
           variant: "inline",
         },
         {
-          title: "Server Maintenance & Support",
+          title: "Access Control Management",
           icon: FiTerminal,
           description:
-            "Ensure uptime and security with our proactive server management services, including 24/7 monitoring, routine updates, and troubleshooting for seamless operations.",
+            "Restricting access to systems and data based on user roles, using techniques like multi-factor authentication (MFA).",
+          variant: "inline",
+        },
+        {
+          title: "Threat Hunting",
+          icon: FiTerminal,
+          description:
+            "Proactively searching for threats and vulnerabilities in your systems before they result in security breaches.",
           variant: "inline",
         },
         

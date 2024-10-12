@@ -72,10 +72,12 @@ import {
 const CareerPage: NextPage = () => {
   return (
     <Box>
-      <SEO
-        title="What We Do | PITBP"
-        description="Innovative Solutions Strategic Technology | Services By PITBP"
-      />
+    <SEO
+      title="Comprehensive CMS Development Services for Your Business | PITBP"
+      description="At PLUS IT Park, we develop intuitive CMS platforms that empower teams to manage content with ease. From customization to seamless integration, our CMS solutions enhance efficiency and user experience."
+    />
+
+
       <Box>
         <HeroSection />
 
@@ -103,16 +105,13 @@ const HeroSection: React.FC = () => {
             px="0"
             title={
               <FallInPlace>
-                 Innovative  Solutions
-                <Br /> Strategic Technology
+               Empowering 
+                <Br /> Content
               </FallInPlace>
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                At Plus IT Business Park, we offer a comprehensive range of services designed to propel your business forward in the digital age. 
-                From cutting-edge web and app development that brings your ideas to life, to powerful digital marketing and SEO strategies that increase visibility and engagement,
-                 we ensure your brand stands out. Our cloud and infrastructure solutions provide secure, scalable systems, while our custom software development tailors solutions to your specific needs.
-               
+Our approach to CMS development goes beyond basic content management. We focus on creating scalable, user-friendly platforms that allow your team to easily update and optimize content. By prioritizing both functionality and user experience, we design CMS systems that empower you to manage your digital presence with ease, ensuring seamless interaction and long-term engagement with your audience.               
               </FallInPlace>
             }
           >
@@ -156,18 +155,12 @@ const HighlightsSection = () => {
         </Text>
       </HighlightsItem>
       <HighlightsTestimonialItem
-        name="Surath Lal"
-        description="Operations Head, Edupace "
-        avatar="/static/images/edu.jpg"
+        name="More Than Content"
+        description="Transformative Management"
+        avatar="/static/images/cms.webp"
         gradient={["pink.200", "purple.500"]}
       >
-        “I am truly impressed with the great work-life balance at plus IT Business Park Thrissur.
-The amazing work environment, fantastic team, and supportive team lead make every
-day enjoyable. The administration is incredibly supportive, ensuring a smooth and
-efficient workflow. The Go Green campus and office cleanliness add to the overall
-positive atmosphere. Free food, diverse projects with social commitments, and regular
-vacation opportunities make it an enriching experience.”
-      </HighlightsTestimonialItem>
+We believe that effective CMS development is not just about managing content; it&#39;s about creating meaningful user experiences. Our solutions emphasize intuitive content organization and seamless navigation, enabling your team to deliver engaging, relevant material that resonates with your audience. By focusing on both functionality and user satisfaction, we ensure your CMS system fosters strong connections and drives long-term engagement.      </HighlightsTestimonialItem>
       <HighlightsItem
         colSpan={[1, null, 2]}
         title="Innovation and Comprehensive Solutions:"
@@ -175,36 +168,32 @@ vacation opportunities make it an enriching experience.”
         <Text color="muted" fontSize="lg">
       
         <br/>
-        At Plus IT Business Park, we are passionate about leveraging the latest technologies to deliver a comprehensive suite of services tailored to meet your digital needs. 
-        Our team of experts is dedicated to staying ahead of industry trends, ensuring that your business benefits from cutting-edge web and app development, effective digital marketing strategies, and reliable cloud solutions. By integrating these services, 
-        we create a seamless experience that boosts engagement, drives conversions, and fosters long-term success for your brand. Experience the difference with our innovative approach to your business growth!
-        
+        Choosing PITBP for your UI design means partnering with a team committed to creating intuitive and impactful user experiences.
+         We understand that great design goes beyond aesthetics; it’s about functionality and user satisfaction. Our expertise in user behavior allows us to craft interfaces that are not only visually appealing but also easy to navigate. 
+         We prioritize a user-centric approach, ensuring that every design element serves a purpose and enhances usability. With our collaborative mindset, we work closely with you to bring your vision to life, delivering designs that resonate with your audience. 
+         <br/>
         <br/>
-        <br/>
+       Methods We Use,
         
-        Technologies We Work With
-
         </Text>
-        
+
 
         <Wrap mt="8">
           {[
-            "Web Development",
-            "Mobile App Development",
-            "Cyber Security",
-            "Digital Marketing",
-            "App Deployment",
-            "UI/UX Development",
-            "Cyber Forensics",
-            "Server Management",
-            "Cloud Solutions",
-            "Graphic Design",
-            "Search Engine Optimization (SEO)",
-            "Content Management Systems (CMS)",
-            "E-commerce Development",
-            "Blockchain Development",
-            "Penetration Testing",
-            "DevSecOps"
+            "Version Control",
+            "Content Organization",
+            "SEO Optimization",
+            "User Permissions and Access Control",
+            "Mobile Optimization",
+            "Content Scheduling",
+            "Content Personalization",
+            "Multilingual Support",
+            "Integration with Third-Party Tools",
+            "Analytics and Reporting",
+            "Media Management",
+            "Scalability",
+            "Security Features",
+            "Analytics and Monitoring"
 
           ].map((value) => (
             <Tag
@@ -218,8 +207,6 @@ vacation opportunities make it an enriching experience.”
             </Tag>
           ))}
         </Wrap>
-
-
       </HighlightsItem>
     </Highlights>
   );
@@ -236,7 +223,7 @@ const FeaturesSection = () => {
           textAlign="left"
           as="p"
         >
-          Areas We Work with
+          Why US ?
           <Br /> 
         </Heading>
       }
@@ -244,76 +231,72 @@ const FeaturesSection = () => {
         <>
          
           <Br />
-          At PLUS IT Park, we are committed to harnessing the latest technologies to elevate your business in the digital landscape. 
-          Our expertise spans the development of dynamic websites, intuitive mobile applications, and sophisticated software solutions, including ERP systems and progressive web apps. 
-          We embrace cutting-edge tools to deliver innovative solutions tailored to your unique needs. In addition to development, we prioritize your online visibility by implementing best practices for SEO and digital marketing, ensuring your brand effectively reaches and engages your target audience. With a focus on creating impactful digital experiences, 
-          we’re dedicated to turning your vision into reality and driving tangible results for your business.
-        </>
+          Choosing PITBP for your CMS development means partnering with a team that excels in creating robust, scalable, and user-friendly content management systems tailored to your specific needs. Our extensive industry experience allows us to design CMS solutions that simplify content creation, organization, and publication while ensuring seamless integration with your existing workflows. We prioritize flexibility and scalability, ensuring your CMS can grow with your business. With a focus on security, performance, and user experience, we deliver solutions that empower you to manage content efficiently while keeping your audience engaged. Our commitment to continuous support and transparent communication ensures your CMS remains optimized, secure, and up-to-date.        </>
       }
       align="left"
       columns={[1, 2, 3]}
       iconSize={4}
       features={[
         {
-          title: "Web Development.",
+          title: "User-Friendly Interface ",
           icon: FiTerminal ,
           description:
-            "We create visually striking and performance-driven websites that adapt seamlessly across all devices, ensuring your online presence stands out in today’s digital landscape.",
+            "Design intuitive and easy-to-navigate interfaces that allow content creators to manage, update, and publish content without technical expertise.",
           variant: "inline",
         },
         {
-          title: "Mobile App Development ",
+          title: "Customizable Templates",
           icon: FiTerminal,
           description:
-            "Empower your business with tailor-made mobile applications, built to deliver a user-friendly experience and optimized for both Android and iOS platforms.",
+            "Provide flexible and customizable templates that align with the branding and design needs of the business, ensuring consistency across all content.",
           variant: "inline",
         },
         {
-          title: "UI/UX Design",
+          title: "Content Versioning ",
           icon: FiTerminal ,
           description:
-            "Our design experts focus on user-centric interfaces, ensuring each touchpoint not only looks great but enhances the overall customer journey for higher engagement.",
+            "Enable version control to track changes, allowing users to restore previous content versions and maintain content integrity.",
           variant: "inline",
         },
         {
-          title: "DevOps & Automation",
+          title: "Access Control Management",
           icon: FiTerminal,
           description:
-            "Our DevOps services streamline your software delivery, automating tasks to improve collaboration, speed, and the reliability of your deployments, reducing time to market.",
+            "Implement role-based permissions to control who can create, edit, approve, or publish content, ensuring security and content integrity.",
           variant: "inline",
         },
         {
-          title: "Employee Development Programs",
+          title: "SEO-Friendly Tools ",
           icon: FiTerminal,
-          description:"Access tailored development programs that align with your career goals and aspirations.",
+          description:"Incorporate built-in SEO features like meta tags, keyword optimization, and XML sitemaps to enhance content visibility on search engines.",
           variant: "inline",
         },
         {
-          title: "Custom Software Development ",
-          icon: FiTerminal,
-          description:
-            "We build bespoke software solutions tailored to your specific business needs, helping you streamline operations, improve efficiency, and gain a competitive edge with personalized technology.",
-          variant: "inline",
-        },
-        {
-          title: "Blockchain Solutions ",
+          title: "Media Management",
           icon: FiTerminal,
           description:
-            "Explore secure, transparent, and tamper-proof blockchain solutions tailored for industries like finance, supply chain, and more, adding trust and efficiency to your operations",
+            "Offer efficient tools for managing images, videos, and other media files, including drag-and-drop functionality and media categorization.",
           variant: "inline",
         },
         {
-          title: "Digital Marketing Services",
+          title: "Scalability ",
           icon: FiTerminal,
           description:
-            "Boost your brand’s visibility and reach with our end-to-end digital marketing strategies, combining SEO, PPC, social media, and content marketing to drive results.",
+            "Ensure the CMS can scale as the organization grows, supporting larger content volumes and more users without compromising performance.",
           variant: "inline",
         },
         {
-          title: "Server Maintenance & Support",
+          title: "Analytics Integration ",
           icon: FiTerminal,
           description:
-            "Ensure uptime and security with our proactive server management services, including 24/7 monitoring, routine updates, and troubleshooting for seamless operations.",
+            "Integrate with analytics platforms to provide insights into content performance, user behavior, and engagement metrics, guiding future content strategies.",
+          variant: "inline",
+        },
+        {
+          title: "Security Features",
+          icon: FiTerminal,
+          description:
+            "Incorporate advanced security measures like SSL encryption, two-factor authentication, and regular security updates to protect content and user data.",
           variant: "inline",
         },
         

@@ -72,10 +72,13 @@ import {
 const CareerPage: NextPage = () => {
   return (
     <Box>
-      <SEO
-        title="What We Do | PITBP"
-        description="Innovative Solutions Strategic Technology | Services By PITBP"
-      />
+    <SEO
+    title="Seamless E-Commerce Software Solutions for Growing Businesses | PITBP"
+    description="Our expert team at PLUS IT Park delivers end-to-end e-commerce development, focusing on performance, security, and flexibility. Build a powerful online store tailored to your business needs."
+/>
+
+
+
       <Box>
         <HeroSection />
 
@@ -103,17 +106,13 @@ const HeroSection: React.FC = () => {
             px="0"
             title={
               <FallInPlace>
-                 Innovative  Solutions
-                <Br /> Strategic Technology
+               Empowering  
+                <Br /> Growth
               </FallInPlace>
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                At Plus IT Business Park, we offer a comprehensive range of services designed to propel your business forward in the digital age. 
-                From cutting-edge web and app development that brings your ideas to life, to powerful digital marketing and SEO strategies that increase visibility and engagement,
-                 we ensure your brand stands out. Our cloud and infrastructure solutions provide secure, scalable systems, while our custom software development tailors solutions to your specific needs.
-               
-              </FallInPlace>
+Our approach to e-commerce development goes beyond creating a simple online store. We focus on building scalable, user-friendly platforms that enable your team to manage products, optimize customer experiences, and drive sales with ease. By prioritizing both functionality and user experience, we deliver e-commerce solutions that empower your business to thrive in the digital marketplace, ensuring seamless transactions and long-term customer loyalty.              </FallInPlace>
             }
           >
             
@@ -156,18 +155,14 @@ const HighlightsSection = () => {
         </Text>
       </HighlightsItem>
       <HighlightsTestimonialItem
-        name="Surath Lal"
-        description="Operations Head, Edupace "
-        avatar="/static/images/edu.jpg"
+        name="More Than Transactions"
+        description="TTransformative Commerce"
+        avatar="/static/images/ecom.jpg"
         gradient={["pink.200", "purple.500"]}
       >
-        “I am truly impressed with the great work-life balance at plus IT Business Park Thrissur.
-The amazing work environment, fantastic team, and supportive team lead make every
-day enjoyable. The administration is incredibly supportive, ensuring a smooth and
-efficient workflow. The Go Green campus and office cleanliness add to the overall
-positive atmosphere. Free food, diverse projects with social commitments, and regular
-vacation opportunities make it an enriching experience.”
-      </HighlightsTestimonialItem>
+We believe that effective e-commerce development is not just about facilitating transactions; it &#39;s about creating meaningful customer experiences. Our solutions emphasize intuitive product organization and seamless navigation, enabling your team to deliver engaging, relevant content that resonates with your audience. By focusing on both functionality and customer satisfaction, we ensure your e-commerce platform fosters strong connections and drives long-term loyalty.   
+ 
+ </HighlightsTestimonialItem>
       <HighlightsItem
         colSpan={[1, null, 2]}
         title="Innovation and Comprehensive Solutions:"
@@ -175,36 +170,40 @@ vacation opportunities make it an enriching experience.”
         <Text color="muted" fontSize="lg">
       
         <br/>
-        At Plus IT Business Park, we are passionate about leveraging the latest technologies to deliver a comprehensive suite of services tailored to meet your digital needs. 
-        Our team of experts is dedicated to staying ahead of industry trends, ensuring that your business benefits from cutting-edge web and app development, effective digital marketing strategies, and reliable cloud solutions. By integrating these services, 
-        we create a seamless experience that boosts engagement, drives conversions, and fosters long-term success for your brand. Experience the difference with our innovative approach to your business growth!
-        
+        Choosing PITBP for your UI design means partnering with a team committed to creating intuitive and impactful user experiences.
+         We understand that great design goes beyond aesthetics; it’s about functionality and user satisfaction. Our expertise in user behavior allows us to craft interfaces that are not only visually appealing but also easy to navigate. 
+         We prioritize a user-centric approach, ensuring that every design element serves a purpose and enhances usability. With our collaborative mindset, we work closely with you to bring your vision to life, delivering designs that resonate with your audience. 
+         <br/>
         <br/>
-        <br/>
+       What We Offer,
         
-        Technologies We Work With
-
         </Text>
-        
+
 
         <Wrap mt="8">
           {[
-            "Web Development",
-            "Mobile App Development",
-            "Cyber Security",
-            "Digital Marketing",
-            "App Deployment",
-            "UI/UX Development",
-            "Cyber Forensics",
-            "Server Management",
-            "Cloud Solutions",
-            "Graphic Design",
+            "User-Friendly Interface",
+            "Mobile Responsiveness",
+            "Payment Gateway Integration",
+            "Product Catalog Management",
+            "Inventory Management",
             "Search Engine Optimization (SEO)",
-            "Content Management Systems (CMS)",
-            "E-commerce Development",
-            "Blockchain Development",
-            "Penetration Testing",
-            "DevSecOps"
+            "Customer Reviews and Ratings",
+            "Multilingual Support",
+            "Order Management",
+            "Analytics and Reporting",
+            "Marketing Tools",
+            "Customer Support Tools",
+            "Security Features",
+
+            "Customizable Templates",
+            "Shipping Integration",
+            "Loyalty Programs",
+
+            "Social Media Integration",
+            "Scalability",
+
+            "Analytics and Monitoring"
 
           ].map((value) => (
             <Tag
@@ -218,8 +217,6 @@ vacation opportunities make it an enriching experience.”
             </Tag>
           ))}
         </Wrap>
-
-
       </HighlightsItem>
     </Highlights>
   );
@@ -236,7 +233,7 @@ const FeaturesSection = () => {
           textAlign="left"
           as="p"
         >
-          Areas We Work with
+          Why US ?
           <Br /> 
         </Heading>
       }
@@ -244,76 +241,72 @@ const FeaturesSection = () => {
         <>
          
           <Br />
-          At PLUS IT Park, we are committed to harnessing the latest technologies to elevate your business in the digital landscape. 
-          Our expertise spans the development of dynamic websites, intuitive mobile applications, and sophisticated software solutions, including ERP systems and progressive web apps. 
-          We embrace cutting-edge tools to deliver innovative solutions tailored to your unique needs. In addition to development, we prioritize your online visibility by implementing best practices for SEO and digital marketing, ensuring your brand effectively reaches and engages your target audience. With a focus on creating impactful digital experiences, 
-          we’re dedicated to turning your vision into reality and driving tangible results for your business.
-        </>
+          Choosing PITBP for your e-commerce development means partnering with a dedicated team that specializes in building robust, scalable, and user-friendly online stores tailored to your unique business needs. Our extensive industry experience enables us to create seamless e-commerce solutions that incorporate essential features such as user-friendly interfaces, mobile responsiveness, and secure payment gateway options. We optimize product catalog management and inventory systems to ensure smooth operations while enhancing search engine visibility. With multilingual support, comprehensive order management, and powerful analytics tools, we empower you to make data-driven decisions and deliver a frictionless shopping experience for your customers. Our focus on security protects sensitive information, while marketing tools and social media integration amplify your brand presence. Committed to scalability and continuous support, we ensure your e-commerce platform remains optimized, secure, and effective in engaging your audience.     </>
       }
       align="left"
       columns={[1, 2, 3]}
       iconSize={4}
       features={[
         {
-          title: "Web Development.",
+          title: "User-Friendly Interface",
           icon: FiTerminal ,
           description:
-            "We create visually striking and performance-driven websites that adapt seamlessly across all devices, ensuring your online presence stands out in today’s digital landscape.",
+            "Design intuitive and visually appealing interfaces that facilitate easy navigation, allowing customers to browse products and complete transactions seamlessly.",
           variant: "inline",
         },
         {
-          title: "Mobile App Development ",
+          title: "Mobile Responsiveness",
           icon: FiTerminal,
           description:
-            "Empower your business with tailor-made mobile applications, built to deliver a user-friendly experience and optimized for both Android and iOS platforms.",
+            "Ensure the e-commerce platform is optimized for mobile devices, providing a smooth shopping experience on smartphones and tablets.",
           variant: "inline",
         },
         {
-          title: "UI/UX Design",
+          title: "Payment Gateway Integration ",
           icon: FiTerminal ,
           description:
-            "Our design experts focus on user-centric interfaces, ensuring each touchpoint not only looks great but enhances the overall customer journey for higher engagement.",
+            "Incorporate secure and diverse payment options, allowing customers to choose from various payment methods, enhancing convenience and trust.",
           variant: "inline",
         },
         {
-          title: "DevOps & Automation",
+          title: "Product Catalog Management",
           icon: FiTerminal,
           description:
-            "Our DevOps services streamline your software delivery, automating tasks to improve collaboration, speed, and the reliability of your deployments, reducing time to market.",
+            "Implement robust tools for managing product listings, including categorization, filtering, and detailed product descriptions, enabling customers to find what they need quickly.",
           variant: "inline",
         },
         {
-          title: "Employee Development Programs",
+          title: "Inventory Management",
           icon: FiTerminal,
-          description:"Access tailored development programs that align with your career goals and aspirations.",
+          description:"Provide real-time inventory tracking to help businesses manage stock levels efficiently and prevent overselling.",
           variant: "inline",
         },
         {
-          title: "Custom Software Development ",
-          icon: FiTerminal,
-          description:
-            "We build bespoke software solutions tailored to your specific business needs, helping you streamline operations, improve efficiency, and gain a competitive edge with personalized technology.",
-          variant: "inline",
-        },
-        {
-          title: "Blockchain Solutions ",
+          title: "Search Engine Optimization (SEO)",
           icon: FiTerminal,
           description:
-            "Explore secure, transparent, and tamper-proof blockchain solutions tailored for industries like finance, supply chain, and more, adding trust and efficiency to your operations",
+            "Utilize built-in SEO features to optimize product pages, improving visibility on search engines and driving organic traffic.",
           variant: "inline",
         },
         {
-          title: "Digital Marketing Services",
+          title: "Marketing Tools ",
           icon: FiTerminal,
           description:
-            "Boost your brand’s visibility and reach with our end-to-end digital marketing strategies, combining SEO, PPC, social media, and content marketing to drive results.",
+            "Provide built-in marketing features, such as email campaigns and discount codes, to engage customers and drive sales.",
           variant: "inline",
         },
         {
-          title: "Server Maintenance & Support",
+          title: "Shipping Integration ",
           icon: FiTerminal,
           description:
-            "Ensure uptime and security with our proactive server management services, including 24/7 monitoring, routine updates, and troubleshooting for seamless operations.",
+            "Offer seamless integration with shipping providers to automate shipping calculations, tracking, and label printing.",
+          variant: "inline",
+        },
+        {
+          title: "Scalability",
+          icon: FiTerminal,
+          description:
+            "Ensure the e-commerce platform can grow alongside the business, supporting increased traffic, product listings, and user accounts without performance issues.",
           variant: "inline",
         },
         

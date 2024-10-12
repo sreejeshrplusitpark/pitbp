@@ -72,10 +72,11 @@ import {
 const CareerPage: NextPage = () => {
   return (
     <Box>
-      <SEO
-        title="What We Do | PITBP"
-        description="Innovative Solutions Strategic Technology | Services By PITBP"
-      />
+     <SEO
+    title="Seamless  Server Integration and Management | PITBP"
+    description="Our  server management services ensure smooth integration, enhanced security, and efficient performance for your operations."
+  />
+
       <Box>
         <HeroSection />
 
@@ -103,15 +104,15 @@ const HeroSection: React.FC = () => {
             px="0"
             title={
               <FallInPlace>
-                 Innovative  Solutions
-                <Br /> Strategic Technology
+                Protect, Monitor,  
+                <Br /> Respond
               </FallInPlace>
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                At Plus IT Business Park, we offer a comprehensive range of services designed to propel your business forward in the digital age. 
-                From cutting-edge web and app development that brings your ideas to life, to powerful digital marketing and SEO strategies that increase visibility and engagement,
-                 we ensure your brand stands out. Our cloud and infrastructure solutions provide secure, scalable systems, while our custom software development tailors solutions to your specific needs.
+              We don &#39;t just manage servers; we fortify them. Our approach goes beyond routine maintenance, 
+              providing comprehensive security measures, proactive threat monitoring, and rapid response strategies. With our expertise, we ensure that your server 
+              infrastructure remains resilient against evolving cyber threats while maximizing performance.
                
               </FallInPlace>
             }
@@ -156,17 +157,13 @@ const HighlightsSection = () => {
         </Text>
       </HighlightsItem>
       <HighlightsTestimonialItem
-        name="Surath Lal"
-        description="Operations Head, Edupace "
-        avatar="/static/images/edu.jpg"
+        name="Elevating Server Security and Performance"
+        description="with Expert Server Management Solutions"
+        avatar="/static/images/server.jpg"
         gradient={["pink.200", "purple.500"]}
       >
-        “I am truly impressed with the great work-life balance at plus IT Business Park Thrissur.
-The amazing work environment, fantastic team, and supportive team lead make every
-day enjoyable. The administration is incredibly supportive, ensuring a smooth and
-efficient workflow. The Go Green campus and office cleanliness add to the overall
-positive atmosphere. Free food, diverse projects with social commitments, and regular
-vacation opportunities make it an enriching experience.”
+         Our focus is on enhancing the resilience of your server infrastructure. Through diligent monitoring, risk assessment, and swift incident response,
+          we create a secure environment that supports your business objectives. Our expert team ensures that your servers are always optimized for performance and fortified against emerging cyber threats.
       </HighlightsTestimonialItem>
       <HighlightsItem
         colSpan={[1, null, 2]}
@@ -181,30 +178,33 @@ vacation opportunities make it an enriching experience.”
         
         <br/>
         <br/>
+        Tools and Methods we make use of
         
-        Technologies We Work With
-
         </Text>
-        
+
 
         <Wrap mt="8">
           {[
-            "Web Development",
-            "Mobile App Development",
-            "Cyber Security",
-            "Digital Marketing",
-            "App Deployment",
-            "UI/UX Development",
-            "Cyber Forensics",
-            "Server Management",
-            "Cloud Solutions",
-            "Graphic Design",
-            "Search Engine Optimization (SEO)",
-            "Content Management Systems (CMS)",
-            "E-commerce Development",
-            "Blockchain Development",
-            "Penetration Testing",
-            "DevSecOps"
+            "Docker ",
+            "Kubernetes ",
+            "AWS CloudWatch",
+            "Grafana",
+            "Prometheus",
+            "VMware  ",
+            "Ngnix",
+            "Puppet",
+            "OpenStack ",
+            "Terraform",
+            "Load Balancing",
+            "Caching ",
+            "Clustering",
+
+            "Service Discovery",
+            "Backup and Recovery",
+            "Database Sharding ",
+            "Virtualization",
+
+            "Content Delivery Network (CDN)"
 
           ].map((value) => (
             <Tag
@@ -218,8 +218,7 @@ vacation opportunities make it an enriching experience.”
             </Tag>
           ))}
         </Wrap>
-
-
+        
       </HighlightsItem>
     </Highlights>
   );
@@ -236,7 +235,7 @@ const FeaturesSection = () => {
           textAlign="left"
           as="p"
         >
-          Areas We Work with
+          Why US ?
           <Br /> 
         </Heading>
       }
@@ -244,10 +243,9 @@ const FeaturesSection = () => {
         <>
          
           <Br />
-          At PLUS IT Park, we are committed to harnessing the latest technologies to elevate your business in the digital landscape. 
-          Our expertise spans the development of dynamic websites, intuitive mobile applications, and sophisticated software solutions, including ERP systems and progressive web apps. 
-          We embrace cutting-edge tools to deliver innovative solutions tailored to your unique needs. In addition to development, we prioritize your online visibility by implementing best practices for SEO and digital marketing, ensuring your brand effectively reaches and engages your target audience. With a focus on creating impactful digital experiences, 
-          we’re dedicated to turning your vision into reality and driving tangible results for your business.
+          At PLUS IT Park, we deliver comprehensive server management solutions tailored to meet the unique demands of your business. 
+          Our expert team leverages industry-leading practices in server deployment, monitoring, and maintenance to ensure optimal performance and reliability. We utilize advanced tools and technologies such as load balancers, caching solutions, and virtualization to maximize resource efficiency and minimize downtime. Our proactive monitoring systems detect issues before they escalate, allowing us to implement timely solutions that safeguard your infrastructure. With a commitment to security and compliance, we ensure your servers are fortified against vulnerabilities while remaining compliant with industry standards. Partner with us to enhance your server performance, 
+          reduce operational risks, and empower your organization with scalable and resilient server management strategies.
         </>
       }
       align="left"
@@ -255,65 +253,65 @@ const FeaturesSection = () => {
       iconSize={4}
       features={[
         {
-          title: "Web Development.",
+          title: "Server Deployment",
           icon: FiTerminal ,
           description:
-            "We create visually striking and performance-driven websites that adapt seamlessly across all devices, ensuring your online presence stands out in today’s digital landscape.",
+            "Seamless setup and configuration of servers tailored to your specific business requirements.",
           variant: "inline",
         },
         {
-          title: "Mobile App Development ",
+          title: "Load Balancing",
           icon: FiTerminal,
           description:
-            "Empower your business with tailor-made mobile applications, built to deliver a user-friendly experience and optimized for both Android and iOS platforms.",
+            "Distributing network traffic across multiple servers to enhance responsiveness and uptime.",
           variant: "inline",
         },
         {
-          title: "UI/UX Design",
+          title: "Server Monitoring ",
           icon: FiTerminal ,
           description:
-            "Our design experts focus on user-centric interfaces, ensuring each touchpoint not only looks great but enhances the overall customer journey for higher engagement.",
+            "Continuous tracking of server performance metrics to identify and resolve potential issues proactively.",
           variant: "inline",
         },
         {
-          title: "DevOps & Automation",
+          title: "Patch Management",
           icon: FiTerminal,
           description:
-            "Our DevOps services streamline your software delivery, automating tasks to improve collaboration, speed, and the reliability of your deployments, reducing time to market.",
+            "Regular updates and patches to server software to mitigate vulnerabilities and improve performance.",
           variant: "inline",
         },
         {
-          title: "Employee Development Programs",
+          title: "Network Configuration",
           icon: FiTerminal,
-          description:"Access tailored development programs that align with your career goals and aspirations.",
+          description:"Setting up and managing network settings to ensure secure and efficient communication between servers.",
           variant: "inline",
         },
         {
-          title: "Custom Software Development ",
-          icon: FiTerminal,
-          description:
-            "We build bespoke software solutions tailored to your specific business needs, helping you streamline operations, improve efficiency, and gain a competitive edge with personalized technology.",
-          variant: "inline",
-        },
-        {
-          title: "Blockchain Solutions ",
+          title: "Database Management",
           icon: FiTerminal,
           description:
-            "Explore secure, transparent, and tamper-proof blockchain solutions tailored for industries like finance, supply chain, and more, adding trust and efficiency to your operations",
+            "Overseeing database installations, configurations, and optimizations to ensure data accessibility and integrity.",
           variant: "inline",
         },
         {
-          title: "Digital Marketing Services",
+          title: "API Management",
           icon: FiTerminal,
           description:
-            "Boost your brand’s visibility and reach with our end-to-end digital marketing strategies, combining SEO, PPC, social media, and content marketing to drive results.",
+            "Monitoring and controlling APIs to ensure secure and efficient interactions between applications and servers.",
           variant: "inline",
         },
         {
-          title: "Server Maintenance & Support",
+          title: "Storage Management",
           icon: FiTerminal,
           description:
-            "Ensure uptime and security with our proactive server management services, including 24/7 monitoring, routine updates, and troubleshooting for seamless operations.",
+            "Overseeing storage solutions and configurations to ensure optimal data storage and retrieval.",
+          variant: "inline",
+        },
+        {
+          title: "User Management",
+          icon: FiTerminal,
+          description:
+            "Managing user accounts and permissions to ensure secure access to server resources.",
           variant: "inline",
         },
         

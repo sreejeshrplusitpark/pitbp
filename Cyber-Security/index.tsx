@@ -73,8 +73,8 @@ const CareerPage: NextPage = () => {
   return (
     <Box>
       <SEO
-        title="What We Do | PITBP"
-        description="Innovative Solutions Strategic Technology | Services By PITBP"
+        title="Building Cyber Fortress | Secring Digital Assets | PITBP"
+        description="comprehensive cybersecurity services protect your organization from evolving threats,incident response, and risk management."
       />
       <Box>
         <HeroSection />
@@ -103,15 +103,15 @@ const HeroSection: React.FC = () => {
             px="0"
             title={
               <FallInPlace>
-                 Innovative  Solutions
-                <Br /> Strategic Technology
+                 Not Just a Protection
+                <Br /> We Build Fortress
               </FallInPlace>
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                At Plus IT Business Park, we offer a comprehensive range of services designed to propel your business forward in the digital age. 
-                From cutting-edge web and app development that brings your ideas to life, to powerful digital marketing and SEO strategies that increase visibility and engagement,
-                 we ensure your brand stands out. Our cloud and infrastructure solutions provide secure, scalable systems, while our custom software development tailors solutions to your specific needs.
+              We provide more than just cybersecurity solutions; we build a resilient defense system that safeguards your digital assets. Our approach goes beyond 
+              standard security measures, ensuring comprehensive protection, proactive threat detection, 
+              and swift incident response to keep your operations secure and seamless.
                
               </FallInPlace>
             }
@@ -156,17 +156,13 @@ const HighlightsSection = () => {
         </Text>
       </HighlightsItem>
       <HighlightsTestimonialItem
-        name="Surath Lal"
-        description="Operations Head, Edupace "
-        avatar="/static/images/edu.jpg"
+        name="Fortifying Your Digital Landscape"
+        description="with Robust Cybersecurity Solutions"
+        avatar="/static/images/cybersec.jpg"
         gradient={["pink.200", "purple.500"]}
       >
-        “I am truly impressed with the great work-life balance at plus IT Business Park Thrissur.
-The amazing work environment, fantastic team, and supportive team lead make every
-day enjoyable. The administration is incredibly supportive, ensuring a smooth and
-efficient workflow. The Go Green campus and office cleanliness add to the overall
-positive atmosphere. Free food, diverse projects with social commitments, and regular
-vacation opportunities make it an enriching experience.”
+         we prioritize the security of your digital assets. Our approach centers on understanding your unique security challenges and tailoring solutions that safeguard your organization. With a focus on proactive threat detection,
+          real-time monitoring, and responsive incident management, we ensure your systems remain resilient against evolving threats.
       </HighlightsTestimonialItem>
       <HighlightsItem
         colSpan={[1, null, 2]}
@@ -181,30 +177,27 @@ vacation opportunities make it an enriching experience.”
         
         <br/>
         <br/>
+        Technologies We Use for Cybersecurity
         
-        Technologies We Work With
-
         </Text>
-        
+
 
         <Wrap mt="8">
           {[
-            "Web Development",
-            "Mobile App Development",
-            "Cyber Security",
-            "Digital Marketing",
-            "App Deployment",
-            "UI/UX Development",
-            "Cyber Forensics",
-            "Server Management",
-            "Cloud Solutions",
-            "Graphic Design",
-            "Search Engine Optimization (SEO)",
-            "Content Management Systems (CMS)",
-            "E-commerce Development",
-            "Blockchain Development",
-            "Penetration Testing",
-            "DevSecOps"
+            "Firewall Solutions",
+            "Intrusion Detection Systems (IDS)",
+            "Intrusion Prevention Systems (IPS)",
+            "Identity and Access Management (IAM)",
+            "Vulnerability Assessment",
+            "Penetration Testing ",
+            "Threat Intelligence",
+            "Cloud Security",
+            "Network Security ",
+            "Compliance Management Tools",
+            "Wireshark",
+            "Metasploit",
+            "Nmap",
+            "Endpoint Protection"
 
           ].map((value) => (
             <Tag
@@ -218,8 +211,7 @@ vacation opportunities make it an enriching experience.”
             </Tag>
           ))}
         </Wrap>
-
-
+        
       </HighlightsItem>
     </Highlights>
   );
@@ -236,7 +228,7 @@ const FeaturesSection = () => {
           textAlign="left"
           as="p"
         >
-          Areas We Work with
+          Why US ?
           <Br /> 
         </Heading>
       }
@@ -244,10 +236,9 @@ const FeaturesSection = () => {
         <>
          
           <Br />
-          At PLUS IT Park, we are committed to harnessing the latest technologies to elevate your business in the digital landscape. 
-          Our expertise spans the development of dynamic websites, intuitive mobile applications, and sophisticated software solutions, including ERP systems and progressive web apps. 
-          We embrace cutting-edge tools to deliver innovative solutions tailored to your unique needs. In addition to development, we prioritize your online visibility by implementing best practices for SEO and digital marketing, ensuring your brand effectively reaches and engages your target audience. With a focus on creating impactful digital experiences, 
-          we’re dedicated to turning your vision into reality and driving tangible results for your business.
+          At PLUS IT Park, we offer comprehensive cybersecurity solutions tailored to your unique needs, employing proven methodologies such as risk assessment, threat modeling, and incident response planning. Our advanced technologies, including data encryption and access control management, 
+          create robust security frameworks that protect sensitive information and ensure compliance with industry regulations. We prioritize user awareness and training, empowering your team to recognize and respond to potential threats effectively. With continuous monitoring, proactive threat detection, 
+          and dedicated support, we keep your defenses strong and ready to respond in real-time. Our commitment is to transform your cybersecurity strategy into a powerful shield against evolving threats, allowing you to focus on growing your business with confidence.
         </>
       }
       align="left"
@@ -255,65 +246,65 @@ const FeaturesSection = () => {
       iconSize={4}
       features={[
         {
-          title: "Web Development.",
+          title: "Threat Assessment  ",
           icon: FiTerminal ,
           description:
-            "We create visually striking and performance-driven websites that adapt seamlessly across all devices, ensuring your online presence stands out in today’s digital landscape.",
+            "Comprehensive evaluations to identify vulnerabilities and potential threats to your digital assets.",
           variant: "inline",
         },
         {
-          title: "Mobile App Development ",
+          title: "Incident Response Planning",
           icon: FiTerminal,
           description:
-            "Empower your business with tailor-made mobile applications, built to deliver a user-friendly experience and optimized for both Android and iOS platforms.",
+            "Strategies and protocols to effectively respond to security incidents and mitigate their impact.s",
           variant: "inline",
         },
         {
-          title: "UI/UX Design",
+          title: "Security Audits ",
           icon: FiTerminal ,
           description:
-            "Our design experts focus on user-centric interfaces, ensuring each touchpoint not only looks great but enhances the overall customer journey for higher engagement.",
+            "In-depth reviews of your security policies, processes, and technologies to ensure compliance and effectiveness.",
           variant: "inline",
         },
         {
-          title: "DevOps & Automation",
+          title: "Firewall Implementation",
           icon: FiTerminal,
           description:
-            "Our DevOps services streamline your software delivery, automating tasks to improve collaboration, speed, and the reliability of your deployments, reducing time to market.",
+            "Deployment of advanced firewall solutions to safeguard networks against unauthorized access and threats.",
           variant: "inline",
         },
         {
-          title: "Employee Development Programs",
+          title: "Endpoint Protection",
           icon: FiTerminal,
-          description:"Access tailored development programs that align with your career goals and aspirations.",
+          description:"Securing endpoints (devices) to prevent malware infections and unauthorized access to networks.",
           variant: "inline",
         },
         {
-          title: "Custom Software Development ",
-          icon: FiTerminal,
-          description:
-            "We build bespoke software solutions tailored to your specific business needs, helping you streamline operations, improve efficiency, and gain a competitive edge with personalized technology.",
-          variant: "inline",
-        },
-        {
-          title: "Blockchain Solutions ",
+          title: "Disaster Recovery Planning",
           icon: FiTerminal,
           description:
-            "Explore secure, transparent, and tamper-proof blockchain solutions tailored for industries like finance, supply chain, and more, adding trust and efficiency to your operations",
+            "Creating plans to ensure business continuity and data recovery in the event of a security breach.",
           variant: "inline",
         },
         {
-          title: "Digital Marketing Services",
+          title: "Vulnerability Management",
           icon: FiTerminal,
           description:
-            "Boost your brand’s visibility and reach with our end-to-end digital marketing strategies, combining SEO, PPC, social media, and content marketing to drive results.",
+            "Regular assessments and management of vulnerabilities to minimize potential risks.",
           variant: "inline",
         },
         {
-          title: "Server Maintenance & Support",
+          title: "Penetration Testing",
           icon: FiTerminal,
           description:
-            "Ensure uptime and security with our proactive server management services, including 24/7 monitoring, routine updates, and troubleshooting for seamless operations.",
+            "Simulated attacks to assess the security posture and identify weaknesses in your infrastructure.",
+          variant: "inline",
+        },
+        {
+          title: "User Training and Awareness",
+          icon: FiTerminal,
+          description:
+            "Programs designed to educate employees about cybersecurity best practices and threat recognition.",
           variant: "inline",
         },
         

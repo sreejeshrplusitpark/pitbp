@@ -73,8 +73,8 @@ const CareerPage: NextPage = () => {
   return (
     <Box>
       <SEO
-        title="UI | PITBP"
-        description="Free SaaS landingspage starter kit"
+        title="UI |Design Beyond Boundaries | PITBP"
+        description="Not Just Screens Let's Build Lasting Impressions | UI Design Team - Plus IT Business Park "
       />
       <Box>
         <HeroSection />
@@ -172,8 +172,42 @@ const HighlightsSection = () => {
         Choosing PITBP for your UI design means partnering with a team committed to creating intuitive and impactful user experiences.
          We understand that great design goes beyond aesthetics; it’s about functionality and user satisfaction. Our expertise in user behavior allows us to craft interfaces that are not only visually appealing but also easy to navigate. 
          We prioritize a user-centric approach, ensuring that every design element serves a purpose and enhances usability. With our collaborative mindset, we work closely with you to bring your vision to life, delivering designs that resonate with your audience. 
-        </Text>
+         <br/>
+        <br/>
+       Build Impressions With help of 
         
+        </Text>
+
+
+        <Wrap mt="8">
+          {[
+            "Figma",
+            "Adobe XD",
+            "Wireframe",
+            "Prototype",
+            "Typography",
+            "Aesthetics",
+            "Responsiveness",
+            "Layout",
+            "Hierarchy",
+            "Microinteractions",
+            "Sketch",
+            "Framer",
+            "Canva",
+            "InVision Studio"
+
+          ].map((value) => (
+            <Tag
+              key={value}
+              variant="subtle"
+              colorScheme="purple"
+              rounded="full"
+              px="3"
+            >
+              {value}
+            </Tag>
+          ))}
+        </Wrap>
       </HighlightsItem>
     </Highlights>
   );

@@ -73,9 +73,10 @@ const CareerPage: NextPage = () => {
   return (
     <Box>
       <SEO
-        title="What We Do | PITBP"
-        description="Innovative Solutions Strategic Technology | Services By PITBP"
-      />
+    title="Innovative Media Solutions for Every Platform | PITBP"
+    description="At PLUS IT Park, our media team crafts cutting-edge strategies that amplify your brand's presence across digital, social, and traditional media platforms, ensuring impactful storytelling and audience engagement."
+  />
+
       <Box>
         <HeroSection />
 
@@ -103,15 +104,13 @@ const HeroSection: React.FC = () => {
             px="0"
             title={
               <FallInPlace>
-                 Innovative  Solutions
-                <Br /> Strategic Technology
+                Design Beyond the
+                <Br /> Surface
               </FallInPlace>
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                At Plus IT Business Park, we offer a comprehensive range of services designed to propel your business forward in the digital age. 
-                From cutting-edge web and app development that brings your ideas to life, to powerful digital marketing and SEO strategies that increase visibility and engagement,
-                 we ensure your brand stands out. Our cloud and infrastructure solutions provide secure, scalable systems, while our custom software development tailors solutions to your specific needs.
+                We transform ideas into visually compelling designs that captivate users and drive meaningful engagement. By merging creativity with functionality, we create seamless experiences that resonate with audiences
                
               </FallInPlace>
             }
@@ -156,18 +155,12 @@ const HighlightsSection = () => {
         </Text>
       </HighlightsItem>
       <HighlightsTestimonialItem
-        name="Surath Lal"
-        description="Operations Head, Edupace "
-        avatar="/static/images/edu.jpg"
+        name="More Than Just Edits "
+        description="Engaging Experiences"
+        avatar="/static/images/media.jpeg"
         gradient={["pink.200", "purple.500"]}
       >
-        “I am truly impressed with the great work-life balance at plus IT Business Park Thrissur.
-The amazing work environment, fantastic team, and supportive team lead make every
-day enjoyable. The administration is incredibly supportive, ensuring a smooth and
-efficient workflow. The Go Green campus and office cleanliness add to the overall
-positive atmosphere. Free food, diverse projects with social commitments, and regular
-vacation opportunities make it an enriching experience.”
-      </HighlightsTestimonialItem>
+Our team excels in creating compelling visual stories that captivate and engage audiences. With expertise in tools like Photoshop and advanced video editing software, we transform concepts into striking visuals that not only convey messages but also evoke emotions.      </HighlightsTestimonialItem>
       <HighlightsItem
         colSpan={[1, null, 2]}
         title="Innovation and Comprehensive Solutions:"
@@ -175,36 +168,32 @@ vacation opportunities make it an enriching experience.”
         <Text color="muted" fontSize="lg">
       
         <br/>
-        At Plus IT Business Park, we are passionate about leveraging the latest technologies to deliver a comprehensive suite of services tailored to meet your digital needs. 
-        Our team of experts is dedicated to staying ahead of industry trends, ensuring that your business benefits from cutting-edge web and app development, effective digital marketing strategies, and reliable cloud solutions. By integrating these services, 
-        we create a seamless experience that boosts engagement, drives conversions, and fosters long-term success for your brand. Experience the difference with our innovative approach to your business growth!
-        
+        Choosing PITBP for your UI design means partnering with a team committed to creating intuitive and impactful user experiences.
+         We understand that great design goes beyond aesthetics; it’s about functionality and user satisfaction. Our expertise in user behavior allows us to craft interfaces that are not only visually appealing but also easy to navigate. 
+         We prioritize a user-centric approach, ensuring that every design element serves a purpose and enhances usability. With our collaborative mindset, we work closely with you to bring your vision to life, delivering designs that resonate with your audience. 
+         <br/>
         <br/>
-        <br/>
+       Build Impressions With help of 
         
-        Technologies We Work With
-
         </Text>
-        
+
 
         <Wrap mt="8">
           {[
-            "Web Development",
-            "Mobile App Development",
-            "Cyber Security",
-            "Digital Marketing",
-            "App Deployment",
-            "UI/UX Development",
-            "Cyber Forensics",
-            "Server Management",
-            "Cloud Solutions",
-            "Graphic Design",
-            "Search Engine Optimization (SEO)",
-            "Content Management Systems (CMS)",
-            "E-commerce Development",
-            "Blockchain Development",
-            "Penetration Testing",
-            "DevSecOps"
+            "Figma",
+            "Adobe XD",
+            "Adobe Photoshop",
+            "Adobe Illustrator",
+            "CorelDRAW ",
+            "Canva ",
+            "Sketch ",
+            "Final Cut Pro",
+            "Adobe Premiere Pro",
+            "DaVinci Resolve ",
+            "Adobe Audition",
+            "Adobe After Effects",
+            "Blender",
+            "Trello "
 
           ].map((value) => (
             <Tag
@@ -218,8 +207,6 @@ vacation opportunities make it an enriching experience.”
             </Tag>
           ))}
         </Wrap>
-
-
       </HighlightsItem>
     </Highlights>
   );
@@ -236,7 +223,7 @@ const FeaturesSection = () => {
           textAlign="left"
           as="p"
         >
-          Areas We Work with
+          Why US ?
           <Br /> 
         </Heading>
       }
@@ -244,10 +231,7 @@ const FeaturesSection = () => {
         <>
          
           <Br />
-          At PLUS IT Park, we are committed to harnessing the latest technologies to elevate your business in the digital landscape. 
-          Our expertise spans the development of dynamic websites, intuitive mobile applications, and sophisticated software solutions, including ERP systems and progressive web apps. 
-          We embrace cutting-edge tools to deliver innovative solutions tailored to your unique needs. In addition to development, we prioritize your online visibility by implementing best practices for SEO and digital marketing, ensuring your brand effectively reaches and engages your target audience. With a focus on creating impactful digital experiences, 
-          we’re dedicated to turning your vision into reality and driving tangible results for your business.
+          At PITBP, our media team is dedicated to transforming your creative vision into captivating visual content that resonates with your audience. With extensive industry experience, we understand the nuances of visual storytelling and audience engagement, ensuring every project aligns with your objectives. We prioritize innovative design and compelling narratives, crafting stunning assets that inspire and captivate. Our agile production process guarantees timely delivery while allowing for flexibility and adaptation to new ideas. Committed to quality and ongoing support, we empower your brand to stand out in a crowded marketplace, creating transformative experiences that leave lasting impressions.
         </>
       }
       align="left"
@@ -255,65 +239,65 @@ const FeaturesSection = () => {
       iconSize={4}
       features={[
         {
-          title: "Web Development.",
+          title: "Visual Storytelling ",
           icon: FiTerminal ,
           description:
-            "We create visually striking and performance-driven websites that adapt seamlessly across all devices, ensuring your online presence stands out in today’s digital landscape.",
+            "Craft compelling narratives through visuals that resonate with audiences and convey messages effectively.",
           variant: "inline",
         },
         {
-          title: "Mobile App Development ",
+          title: "Brand Consistency",
           icon: FiTerminal,
           description:
-            "Empower your business with tailor-made mobile applications, built to deliver a user-friendly experience and optimized for both Android and iOS platforms.",
+            "Maintain a cohesive visual identity across all media platforms to strengthen brand recognition and trust.",
           variant: "inline",
         },
         {
-          title: "UI/UX Design",
+          title: "Creative Collaboration",
           icon: FiTerminal ,
           description:
-            "Our design experts focus on user-centric interfaces, ensuring each touchpoint not only looks great but enhances the overall customer journey for higher engagement.",
+            "Work closely with clients and stakeholders to ensure the final product aligns with their vision and objectives.",
           variant: "inline",
         },
         {
-          title: "DevOps & Automation",
+          title: "Dynamic Content Creation",
           icon: FiTerminal,
           description:
-            "Our DevOps services streamline your software delivery, automating tasks to improve collaboration, speed, and the reliability of your deployments, reducing time to market.",
+            "Develop engaging content tailored for various platforms, including social media, websites, and advertising campaigns.",
           variant: "inline",
         },
         {
-          title: "Employee Development Programs",
+          title: "Feedback Integration ",
           icon: FiTerminal,
-          description:"Access tailored development programs that align with your career goals and aspirations.",
+          description:"Actively seek and incorporate feedback throughout the creative process to refine and improve content.",
           variant: "inline",
         },
         {
-          title: "Custom Software Development ",
-          icon: FiTerminal,
-          description:
-            "We build bespoke software solutions tailored to your specific business needs, helping you streamline operations, improve efficiency, and gain a competitive edge with personalized technology.",
-          variant: "inline",
-        },
-        {
-          title: "Blockchain Solutions ",
+          title: "Information Architecture",
           icon: FiTerminal,
           description:
-            "Explore secure, transparent, and tamper-proof blockchain solutions tailored for industries like finance, supply chain, and more, adding trust and efficiency to your operations",
+            " Organize content logically to help users find information effortlessly and efficiently.",
           variant: "inline",
         },
         {
-          title: "Digital Marketing Services",
+          title: "Trendy Designs ",
           icon: FiTerminal,
           description:
-            "Boost your brand’s visibility and reach with our end-to-end digital marketing strategies, combining SEO, PPC, social media, and content marketing to drive results.",
+            "Stay updated on the latest design trends and technologies to ensure content is fresh and relevant.",
           variant: "inline",
         },
         {
-          title: "Server Maintenance & Support",
+          title: "Post-Production Excellence  ",
           icon: FiTerminal,
           description:
-            "Ensure uptime and security with our proactive server management services, including 24/7 monitoring, routine updates, and troubleshooting for seamless operations.",
+            "Focus on high-quality editing and finishing processes to ensure the final product is polished and professional.",
+          variant: "inline",
+        },
+        {
+          title: "Scriptwriting and Storyboarding ",
+          icon: FiTerminal,
+          description:
+            "Develop scripts and storyboards to plan and visualize media projects before production begins.",
           variant: "inline",
         },
         

@@ -72,10 +72,11 @@ import {
 const CareerPage: NextPage = () => {
   return (
     <Box>
-      <SEO
-        title="What We Do | PITBP"
-        description="Innovative Solutions Strategic Technology | Services By PITBP"
-      />
+     <SEO
+    title="Boost Your Online Presence with Expert SEO Services | PITBP"
+    description="At PLUS IT Park, we specialize in tailored SEO strategies that enhance your website's visibility, drive organic traffic, and improve search engine rankings. Our expert team employs the latest techniques to ensure your brand reaches its target audience effectively."
+/>
+
       <Box>
         <HeroSection />
 
@@ -103,15 +104,13 @@ const HeroSection: React.FC = () => {
             px="0"
             title={
               <FallInPlace>
-                 Innovative  Solutions
-                <Br /> Strategic Technology
+                Not Just Rankings
+                <Br /> Lasting Visibility
               </FallInPlace>
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                At Plus IT Business Park, we offer a comprehensive range of services designed to propel your business forward in the digital age. 
-                From cutting-edge web and app development that brings your ideas to life, to powerful digital marketing and SEO strategies that increase visibility and engagement,
-                 we ensure your brand stands out. Our cloud and infrastructure solutions provide secure, scalable systems, while our custom software development tailors solutions to your specific needs.
+                Our approach emphasizes developing SEO strategies that not only improve search engine rankings but also enhance user engagement. By focusing on the needs and preferences of your target audience, we create optimized content and structures that guide users effortlessly to your website, ensuring that every interaction leaves a lasting impression. 
                
               </FallInPlace>
             }
@@ -156,17 +155,12 @@ const HighlightsSection = () => {
         </Text>
       </HighlightsItem>
       <HighlightsTestimonialItem
-        name="Surath Lal"
-        description="Operations Head, Edupace "
-        avatar="/static/images/edu.jpg"
+        name="More Than Keywords"
+        description="Transformative Visibility"
+        avatar="/static/images/sei.png"
         gradient={["pink.200", "purple.500"]}
       >
-        “I am truly impressed with the great work-life balance at plus IT Business Park Thrissur.
-The amazing work environment, fantastic team, and supportive team lead make every
-day enjoyable. The administration is incredibly supportive, ensuring a smooth and
-efficient workflow. The Go Green campus and office cleanliness add to the overall
-positive atmosphere. Free food, diverse projects with social commitments, and regular
-vacation opportunities make it an enriching experience.”
+      We believe that effective SEO is not just about driving traffic; it&#39;s about building relationships. Our strategies emphasize understanding user intent and delivering relevant content that captures attention and encourages interaction, ensuring a rewarding experience that keeps visitors coming back for more.
       </HighlightsTestimonialItem>
       <HighlightsItem
         colSpan={[1, null, 2]}
@@ -175,36 +169,32 @@ vacation opportunities make it an enriching experience.”
         <Text color="muted" fontSize="lg">
       
         <br/>
-        At Plus IT Business Park, we are passionate about leveraging the latest technologies to deliver a comprehensive suite of services tailored to meet your digital needs. 
-        Our team of experts is dedicated to staying ahead of industry trends, ensuring that your business benefits from cutting-edge web and app development, effective digital marketing strategies, and reliable cloud solutions. By integrating these services, 
-        we create a seamless experience that boosts engagement, drives conversions, and fosters long-term success for your brand. Experience the difference with our innovative approach to your business growth!
-        
+        Choosing PITBP for your UI design means partnering with a team committed to creating intuitive and impactful user experiences.
+         We understand that great design goes beyond aesthetics; it’s about functionality and user satisfaction. Our expertise in user behavior allows us to craft interfaces that are not only visually appealing but also easy to navigate. 
+         We prioritize a user-centric approach, ensuring that every design element serves a purpose and enhances usability. With our collaborative mindset, we work closely with you to bring your vision to life, delivering designs that resonate with your audience. 
+         <br/>
         <br/>
-        <br/>
+       Tools and Methods We Used to Rank you on top,
         
-        Technologies We Work With
-
         </Text>
-        
+
 
         <Wrap mt="8">
           {[
-            "Web Development",
-            "Mobile App Development",
-            "Cyber Security",
-            "Digital Marketing",
-            "App Deployment",
-            "UI/UX Development",
-            "Cyber Forensics",
-            "Server Management",
-            "Cloud Solutions",
-            "Graphic Design",
-            "Search Engine Optimization (SEO)",
+            "Google Lighthouse",
+            "Seoblity",
+            "Google Analytics",
+            "Google Search Console",
+            "SEMrush",
+            "Keyword Planner",
+            "Google Trends",
             "Content Management Systems (CMS)",
-            "E-commerce Development",
-            "Blockchain Development",
-            "Penetration Testing",
-            "DevSecOps"
+            "Local SEO Strategies",
+            "Technical SEO Practices",
+            "Google PageSpeed Insights",
+            "PageOptimizer",
+            "Mobile Optimization",
+            "Analytics and Monitoring"
 
           ].map((value) => (
             <Tag
@@ -218,8 +208,6 @@ vacation opportunities make it an enriching experience.”
             </Tag>
           ))}
         </Wrap>
-
-
       </HighlightsItem>
     </Highlights>
   );
@@ -236,7 +224,7 @@ const FeaturesSection = () => {
           textAlign="left"
           as="p"
         >
-          Areas We Work with
+          Why US ?
           <Br /> 
         </Heading>
       }
@@ -244,10 +232,7 @@ const FeaturesSection = () => {
         <>
          
           <Br />
-          At PLUS IT Park, we are committed to harnessing the latest technologies to elevate your business in the digital landscape. 
-          Our expertise spans the development of dynamic websites, intuitive mobile applications, and sophisticated software solutions, including ERP systems and progressive web apps. 
-          We embrace cutting-edge tools to deliver innovative solutions tailored to your unique needs. In addition to development, we prioritize your online visibility by implementing best practices for SEO and digital marketing, ensuring your brand effectively reaches and engages your target audience. With a focus on creating impactful digital experiences, 
-          we’re dedicated to turning your vision into reality and driving tangible results for your business.
+          Choosing PITBP for your SEO needs means partnering with a dedicated team that is committed to enhancing your online presence and driving meaningful traffic to your website. With extensive industry experience, we understand the nuances of search engine algorithms and user behavior, ensuring that every strategy we implement aligns perfectly with your unique business goals. We prioritize a data-driven approach, crafting tailored SEO solutions that not only improve visibility but also engage your target audience effectively. Our agile methodology allows us to adapt quickly to changing trends and algorithm updates, ensuring your SEO strategy remains effective and relevant. With a strong commitment to quality, transparency, and ongoing support, we empower your brand to succeed in the competitive digital landscape.
         </>
       }
       align="left"
@@ -255,65 +240,65 @@ const FeaturesSection = () => {
       iconSize={4}
       features={[
         {
-          title: "Web Development.",
+          title: "User-Centric Approach  ",
           icon: FiTerminal ,
           description:
-            "We create visually striking and performance-driven websites that adapt seamlessly across all devices, ensuring your online presence stands out in today’s digital landscape.",
+            "Focus on understanding user intent and behavior to create content that resonates and drives engagement.",
           variant: "inline",
         },
         {
-          title: "Mobile App Development ",
+          title: "Responsive Design",
           icon: FiTerminal,
           description:
-            "Empower your business with tailor-made mobile applications, built to deliver a user-friendly experience and optimized for both Android and iOS platforms.",
+            "Ensure optimal visibility and functionality across all devices, enhancing user experience and satisfaction.",
           variant: "inline",
         },
         {
-          title: "UI/UX Design",
+          title: "Keyword Research ",
           icon: FiTerminal ,
           description:
-            "Our design experts focus on user-centric interfaces, ensuring each touchpoint not only looks great but enhances the overall customer journey for higher engagement.",
+            "Identify and analyze relevant keywords to inform content strategy and improve search engine rankings.",
           variant: "inline",
         },
         {
-          title: "DevOps & Automation",
+          title: "On-Page Optimization",
           icon: FiTerminal,
           description:
-            "Our DevOps services streamline your software delivery, automating tasks to improve collaboration, speed, and the reliability of your deployments, reducing time to market.",
+            "Optimize website elements such as title tags, meta descriptions, and headings to align with SEO best practices and improve visibility.",
           variant: "inline",
         },
         {
-          title: "Employee Development Programs",
+          title: "Content Development ",
           icon: FiTerminal,
-          description:"Access tailored development programs that align with your career goals and aspirations.",
+          description:"ICreate high-quality, valuable content that addresses user needs and interests, establishing authority and driving organic traffic.",
           variant: "inline",
         },
         {
-          title: "Custom Software Development ",
-          icon: FiTerminal,
-          description:
-            "We build bespoke software solutions tailored to your specific business needs, helping you streamline operations, improve efficiency, and gain a competitive edge with personalized technology.",
-          variant: "inline",
-        },
-        {
-          title: "Blockchain Solutions ",
+          title: "Technical SEO",
           icon: FiTerminal,
           description:
-            "Explore secure, transparent, and tamper-proof blockchain solutions tailored for industries like finance, supply chain, and more, adding trust and efficiency to your operations",
+            "Implement technical best practices to enhance website performance, including site speed optimization, mobile-friendliness, and proper indexing.",
           variant: "inline",
         },
         {
-          title: "Digital Marketing Services",
+          title: "Scalability ",
           icon: FiTerminal,
           description:
-            "Boost your brand’s visibility and reach with our end-to-end digital marketing strategies, combining SEO, PPC, social media, and content marketing to drive results.",
+            "Design interfaces that can grow and adapt as your business needs evolve.",
           variant: "inline",
         },
         {
-          title: "Server Maintenance & Support",
+          title: "Link Building ",
           icon: FiTerminal,
           description:
-            "Ensure uptime and security with our proactive server management services, including 24/7 monitoring, routine updates, and troubleshooting for seamless operations.",
+            "Develop a robust backlink strategy to increase domain authority and improve search engine rankings through quality external links.",
+          variant: "inline",
+        },
+        {
+          title: "Continuous Improvement",
+          icon: FiTerminal,
+          description:
+            "Regularly update and refine SEO strategies based on industry trends and performance analytics to ensure sustained success.",
           variant: "inline",
         },
         

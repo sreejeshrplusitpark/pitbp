@@ -1,5 +1,4 @@
 import * as React from "react";
-import styles from './HomepageStyle'; // Adjust the path if necessary
 import type { NextPage } from "next";
 import Image from "next/image";
 import {
@@ -25,7 +24,6 @@ import { FallInPlace } from "components/motion/fall-in-place";
 import { Hero } from "components/hero";
 import { Link, Br } from "@saas-ui/react";
 import { Em } from "components/typography";
-import { NextjsLogo, ChakraLogo } from "components/logos";
 import {
   FiArrowRight,
   FiBox,
@@ -73,9 +71,11 @@ import {
 const Home: NextPage = () => {
   return (
     <Box>
+    
       <SEO
-        title="PLUS IT BUSINESS PARK | Diffrentiated Insigits"
-        description="Free SaaS landingspage starter kit"
+        title="PLUS IT BUSINESS PARK | Merging AI With Human Intusions"
+       
+        description="The Information and Technology Wing under World Wide Plus Established on 2020 | Build in India, Shiped across the Globe  "
       />
       <Box>
         <HeroSection />
@@ -161,7 +161,8 @@ const HeroSection: React.FC = () => {
     color: 'rgba(255, 255, 255, 0.1)', // Adjust color and opacity
     whiteSpace: 'nowrap'
   }}>
-    4 D's
+   
+    4 D &#39;s
   </h1>
   <Features
     id="benefits"
@@ -231,7 +232,7 @@ const HighlightsSection = () => {
       <HighlightsTestimonialItem
         name="JOVIN C VARGHESE"
         description="CEO & Fonder, Ex ISRO"
-        avatar="/static/images/jovin.jpg"
+        avatar="/static/images/ceo.jpg"
         gradient={["pink.200", "purple.500"]}
       >
         “At PITBP, we place great value on our processes and culture.
@@ -261,12 +262,7 @@ const HighlightsSection = () => {
             "Search Engine Optimization (SEO)",
             "Content Management Systems (CMS)",
             "E-commerce Development",
-            "Social Media Marketing",
             "Blockchain Development",
-            "Web Hosting Services",
-            "Business Process Automation",
-            "Cloud Migration Services",
-            "Infrastructure Management",
             "Penetration Testing",
             "DevSecOps"
 

@@ -74,7 +74,7 @@ const CareerPage: NextPage = () => {
     <Box>
       <SEO
         title="Mobile App Development | PITBP"
-        description="Free SaaS landingspage starter kit"
+        description="Not Just an App We Build A User Experience | Mobile App Development team of PITBP"
       />
       <Box>
         <HeroSection />
@@ -157,10 +157,10 @@ const HighlightsSection = () => {
       <HighlightsTestimonialItem
         name="Empowering User-Centric Design "
         description="for Lasting Engagement "
-        avatar="/static/images/mobile.jpg"
+        avatar="/static/images/mobile.webp"
         gradient={["pink.200", "purple.500"]}
       >
-        With a focus on user-centric design, we prioritize understanding your target audience's needs and preferences, enabling us to deliver apps that not only meet expectations but exceed them. From smooth navigation to visually appealing interfaces, our goal is to transform your vision into a powerful mobile experience that captivates users and fosters lasting connections.
+        With a focus on user-centric design, we prioritize understanding your target audience &#39;s needs and preferences, enabling us to deliver apps that not only meet expectations but exceed them. From smooth navigation to visually appealing interfaces, our goal is to transform your vision into a powerful mobile experience that captivates users and fosters lasting connections.
       </HighlightsTestimonialItem>
       <HighlightsItem
         colSpan={[1, null, 2]}
@@ -172,7 +172,43 @@ const HighlightsSection = () => {
         At Plus IT Business Park, we are passionate about leveraging the latest technologies to deliver a comprehensive suite of services tailored to meet your digital needs. 
         Our team of experts is dedicated to staying ahead of industry trends, ensuring that your business benefits from cutting-edge web and app development, effective digital marketing strategies, and reliable cloud solutions. By integrating these services, 
         we create a seamless experience that boosts engagement, drives conversions, and fosters long-term success for your brand. Experience the difference with our innovative approach to your business growth!
+        
+        <br/>
+        <br/>
+        Technologies We Work Here for App Development
+        
         </Text>
+
+
+        <Wrap mt="8">
+          {[
+            "Swift",
+            "Kotlin",
+            "Flutter",
+            "Firebase",
+            "Dart",
+            "Google Play Console",
+            "Apple Developer Console",
+            "Provider",
+            "Bloc (Business Logic Component)",
+            "States Rebuilder",
+            "Scoped Model",
+            "MVC",
+            "Objective-C",
+            "RESTful APIs"
+
+          ].map((value) => (
+            <Tag
+              key={value}
+              variant="subtle"
+              colorScheme="purple"
+              rounded="full"
+              px="3"
+            >
+              {value}
+            </Tag>
+          ))}
+        </Wrap>
         
       </HighlightsItem>
     </Highlights>

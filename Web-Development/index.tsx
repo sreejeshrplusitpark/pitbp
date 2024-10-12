@@ -73,8 +73,8 @@ const CareerPage: NextPage = () => {
   return (
     <Box>
       <SEO
-        title="Web Development| PITBP"
-        description="Free SaaS landingspage starter kit"
+        title="Not Just a Website | Build a Brand | PITBP"
+        description="Craft a Amazing User Experence Along With Your Idendity | Web Development Team  | PITBP" 
       />
       <Box>
         <HeroSection />
@@ -172,7 +172,42 @@ const HighlightsSection = () => {
         At Plus IT Business Park, we are passionate about leveraging the latest technologies to deliver a comprehensive suite of services tailored to meet your digital needs. 
         Our team of experts is dedicated to staying ahead of industry trends, ensuring that your business benefits from cutting-edge web and app development, effective digital marketing strategies, and reliable cloud solutions. By integrating these services, 
         we create a seamless experience that boosts engagement, drives conversions, and fosters long-term success for your brand. Experience the difference with our innovative approach to your business growth!
+        <br/>
+        <br/>
+      Technologies We Work With
+        
         </Text>
+
+
+        <Wrap mt="8">
+          {[
+            "MERN",
+            "Next Js",
+            "Mongo DB ",
+            "Ngnix",
+            "TypeScript",
+            "Vite",
+            "GraphQL",
+            "Kubernetes",
+            "Postman",
+            "Jenkins",
+            "Docker",
+            "Git",
+            "Vercel",
+            "Passport"
+
+          ].map((value) => (
+            <Tag
+              key={value}
+              variant="subtle"
+              colorScheme="purple"
+              rounded="full"
+              px="3"
+            >
+              {value}
+            </Tag>
+          ))}
+        </Wrap>
         
       </HighlightsItem>
     </Highlights>
@@ -198,7 +233,7 @@ const FeaturesSection = () => {
         <>
          
           <Br />
-          At PITBP, we create more than just websites—we craft custom digital experiences that perfectly reflect your brand's identity and values.
+          At PITBP, we create more than just websites—we craft custom digital experiences that perfectly reflect your brand &#39;s identity and values.
            Our designs are not only visually unique but also scalable, growing with your business to accommodate future needs. We ensure your website is responsive across all devices, optimized for SEO to boost visibility, 
            and built for fast loading times to enhance user experience. With robust security measures like SSL certification and secure coding, we prioritize protecting your data. Plus, our ongoing support guarantees that your website remains secure, up-to-date, and high-performing at all times.
         </>

@@ -73,8 +73,8 @@ const CareerPage: NextPage = () => {
   return (
     <Box>
       <SEO
-        title="What We Do | PITBP"
-        description="Innovative Solutions Strategic Technology | Services By PITBP"
+        title="Beyond Just Marketing We Cultivate Connections | PITBP"
+        description="Our approach goes beyond traditional marketing strategies, ensuring tailored campaigns, data-driven insights, and innovative solutions."
       />
       <Box>
         <HeroSection />
@@ -103,15 +103,14 @@ const HeroSection: React.FC = () => {
             px="0"
             title={
               <FallInPlace>
-                 Innovative  Solutions
-                <Br /> Strategic Technology
+                Not Just Advertising
+                <Br /> Ignite Engagement
               </FallInPlace>
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                At Plus IT Business Park, we offer a comprehensive range of services designed to propel your business forward in the digital age. 
-                From cutting-edge web and app development that brings your ideas to life, to powerful digital marketing and SEO strategies that increase visibility and engagement,
-                 we ensure your brand stands out. Our cloud and infrastructure solutions provide secure, scalable systems, while our custom software development tailors solutions to your specific needs.
+              We deliver more than just advertising; we empower brands to tell their unique stories. Our innovative strategies focus on building authentic relationships, 
+              leveraging data insights to connect with your audience meaningfully and effectively.
                
               </FallInPlace>
             }
@@ -156,17 +155,15 @@ const HighlightsSection = () => {
         </Text>
       </HighlightsItem>
       <HighlightsTestimonialItem
-        name="Surath Lal"
-        description="Operations Head, Edupace "
-        avatar="/static/images/edu.jpg"
+        name="Elevating Your Digital Presence"
+        description="with Strategic Marketing Solutions"
+        avatar="/static/images/digital.jpeg"
         gradient={["pink.200", "purple.500"]}
       >
-        “I am truly impressed with the great work-life balance at plus IT Business Park Thrissur.
-The amazing work environment, fantastic team, and supportive team lead make every
-day enjoyable. The administration is incredibly supportive, ensuring a smooth and
-efficient workflow. The Go Green campus and office cleanliness add to the overall
-positive atmosphere. Free food, diverse projects with social commitments, and regular
-vacation opportunities make it an enriching experience.”
+         We focus on enhancing your digital footprint through tailored marketing strategies that resonate with your audience.
+          Our approach begins with understanding your brand &#39;s unique goals and challenges, allowing us to craft personalized campaigns that drive engagement and growth. 
+          From data-driven insights to targeted advertising, we ensure your marketing efforts are both impactful and measurable, helping you connect with your audience, 
+         build brand loyalty, and achieve long-term success in the ever-evolving digital landscape.
       </HighlightsTestimonialItem>
       <HighlightsItem
         colSpan={[1, null, 2]}
@@ -181,30 +178,27 @@ vacation opportunities make it an enriching experience.”
         
         <br/>
         <br/>
+       We use of,
         
-        Technologies We Work With
-
         </Text>
-        
+
 
         <Wrap mt="8">
           {[
-            "Web Development",
-            "Mobile App Development",
-            "Cyber Security",
-            "Digital Marketing",
-            "App Deployment",
-            "UI/UX Development",
-            "Cyber Forensics",
-            "Server Management",
-            "Cloud Solutions",
-            "Graphic Design",
+            "Google Tag Manager",
+            "Seoblity",
+            "Google Add Sense",
+            "Meta Busienss Suit",
+            "SEMrush ",
+            "Hootsuite  ",
+            "Mailchimp ",
+            "HubSpot ",
+            "Canva ",
+            "Zapier",
             "Search Engine Optimization (SEO)",
-            "Content Management Systems (CMS)",
-            "E-commerce Development",
-            "Blockchain Development",
-            "Penetration Testing",
-            "DevSecOps"
+            "Customer Relationship Management (CRM)",
+            "Moz ",
+            "Google Analytics"
 
           ].map((value) => (
             <Tag
@@ -218,8 +212,7 @@ vacation opportunities make it an enriching experience.”
             </Tag>
           ))}
         </Wrap>
-
-
+        
       </HighlightsItem>
     </Highlights>
   );
@@ -236,7 +229,7 @@ const FeaturesSection = () => {
           textAlign="left"
           as="p"
         >
-          Areas We Work with
+          Why US ?
           <Br /> 
         </Heading>
       }
@@ -244,10 +237,9 @@ const FeaturesSection = () => {
         <>
          
           <Br />
-          At PLUS IT Park, we are committed to harnessing the latest technologies to elevate your business in the digital landscape. 
-          Our expertise spans the development of dynamic websites, intuitive mobile applications, and sophisticated software solutions, including ERP systems and progressive web apps. 
-          We embrace cutting-edge tools to deliver innovative solutions tailored to your unique needs. In addition to development, we prioritize your online visibility by implementing best practices for SEO and digital marketing, ensuring your brand effectively reaches and engages your target audience. With a focus on creating impactful digital experiences, 
-          we’re dedicated to turning your vision into reality and driving tangible results for your business.
+          At PLUS IT Park, we provide end-to-end digital marketing solutions tailored to meet your business goals. We leverage data-driven strategies and the latest marketing technologies to help you reach your target audience effectively. 
+          Our expertise spans across SEO, social media marketing, paid advertising, content creation, and email marketing, ensuring a comprehensive approach to boosting your online presence. 
+          We focus on personalized campaigns, continuous optimization, and performance analytics to maximize ROI. With our dedicated team and innovative methods, we build lasting connections between your brand and your audience, helping you achieve measurable success and sustainable growth.
         </>
       }
       align="left"
@@ -255,65 +247,65 @@ const FeaturesSection = () => {
       iconSize={4}
       features={[
         {
-          title: "Web Development.",
+          title: "SEO Strategy Development ",
           icon: FiTerminal ,
           description:
-            "We create visually striking and performance-driven websites that adapt seamlessly across all devices, ensuring your online presence stands out in today’s digital landscape.",
+            "Crafting tailored SEO strategies to boost your website’s visibility and rank higher on search engines.",
           variant: "inline",
         },
         {
-          title: "Mobile App Development ",
+          title: "Social Media Management",
           icon: FiTerminal,
           description:
-            "Empower your business with tailor-made mobile applications, built to deliver a user-friendly experience and optimized for both Android and iOS platforms.",
+            "Creating and managing engaging content across social media platforms to enhance brand presence and audience engagement.",
           variant: "inline",
         },
         {
-          title: "UI/UX Design",
+          title: "Content Marketing",
           icon: FiTerminal ,
           description:
-            "Our design experts focus on user-centric interfaces, ensuring each touchpoint not only looks great but enhances the overall customer journey for higher engagement.",
+            "Developing and distributing valuable, relevant content to attract and engage your target audience.",
           variant: "inline",
         },
         {
-          title: "DevOps & Automation",
+          title: "Email Marketing Campaigns",
           icon: FiTerminal,
           description:
-            "Our DevOps services streamline your software delivery, automating tasks to improve collaboration, speed, and the reliability of your deployments, reducing time to market.",
+            "Designing personalized email campaigns to nurture leads and increase customer retention.",
           variant: "inline",
         },
         {
-          title: "Employee Development Programs",
+          title: "Content Calendar Creation",
           icon: FiTerminal,
-          description:"Access tailored development programs that align with your career goals and aspirations.",
+          description:"Building strategic content calendars to ensure consistent and timely communication with your audience.",
           variant: "inline",
         },
         {
-          title: "Custom Software Development ",
-          icon: FiTerminal,
-          description:
-            "We build bespoke software solutions tailored to your specific business needs, helping you streamline operations, improve efficiency, and gain a competitive edge with personalized technology.",
-          variant: "inline",
-        },
-        {
-          title: "Blockchain Solutions ",
+          title: "Video Marketing",
           icon: FiTerminal,
           description:
-            "Explore secure, transparent, and tamper-proof blockchain solutions tailored for industries like finance, supply chain, and more, adding trust and efficiency to your operations",
+            "Creating impactful video content to tell your brand’s story and engage users across digital platforms.",
           variant: "inline",
         },
         {
-          title: "Digital Marketing Services",
+          title: "Landing Page Optimization",
           icon: FiTerminal,
           description:
-            "Boost your brand’s visibility and reach with our end-to-end digital marketing strategies, combining SEO, PPC, social media, and content marketing to drive results.",
+            "Designing high-converting landing pages tailored to specific campaigns for maximum lead generation.",
           variant: "inline",
         },
         {
-          title: "Server Maintenance & Support",
+          title: "Local SEO",
           icon: FiTerminal,
           description:
-            "Ensure uptime and security with our proactive server management services, including 24/7 monitoring, routine updates, and troubleshooting for seamless operations.",
+            "Optimizing your online presence to attract customers from local searches and enhance visibility in specific geographic areas.",
+          variant: "inline",
+        },
+        {
+          title: "Brand Identity Development",
+          icon: FiTerminal,
+          description:
+            "Creating and refining your brand's visual and verbal identity to establish a cohesive and recognizable presence.",
           variant: "inline",
         },
         

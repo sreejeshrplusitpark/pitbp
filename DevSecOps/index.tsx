@@ -72,10 +72,13 @@ import {
 const CareerPage: NextPage = () => {
   return (
     <Box>
-      <SEO
-        title="What We Do | PITBP"
-        description="Innovative Solutions Strategic Technology | Services By PITBP"
-      />
+    <SEO
+      title="DevSecOps: Security-First Development | PITBP"
+      description="Transform your development processes with our comprehensive DevSecOps services. Safeguard your applications and streamline security practices at Plus IT Business Park."
+/>
+
+
+
       <Box>
         <HeroSection />
 
@@ -103,17 +106,13 @@ const HeroSection: React.FC = () => {
             px="0"
             title={
               <FallInPlace>
-                 Innovative  Solutions
-                <Br /> Strategic Technology
+               Integrating Security into Development
+                <Br /> 
               </FallInPlace>
             }
             description={
               <FallInPlace delay={0.4} fontWeight="medium">
-                At Plus IT Business Park, we offer a comprehensive range of services designed to propel your business forward in the digital age. 
-                From cutting-edge web and app development that brings your ideas to life, to powerful digital marketing and SEO strategies that increase visibility and engagement,
-                 we ensure your brand stands out. Our cloud and infrastructure solutions provide secure, scalable systems, while our custom software development tailors solutions to your specific needs.
-               
-              </FallInPlace>
+In today’s fast-paced development environment, we are dedicated to embedding security at every stage of your software lifecycle through our comprehensive DevSecOps solutions. Our approach ensures that security is not an afterthought but a fundamental aspect of development, allowing for continuous integration and delivery without compromising on safety. By leveraging advanced tools and industry best practices, we facilitate collaboration between development, security, and operations teams, resulting in a streamlined process that enhances code quality and compliance. Our expert team focuses on creating a culture of security awareness, empowering your organization to innovate confidently while safeguarding your applications and data against evolving threats.              </FallInPlace>
             }
           >
             
@@ -156,18 +155,13 @@ const HighlightsSection = () => {
         </Text>
       </HighlightsItem>
       <HighlightsTestimonialItem
-        name="Surath Lal"
-        description="Operations Head, Edupace "
-        avatar="/static/images/edu.jpg"
+        name="Security as a Culture"
+        description="Transforming Development Practices"
+        avatar="/static/images/devsecops.webp"
         gradient={["pink.200", "purple.500"]}
       >
-        “I am truly impressed with the great work-life balance at plus IT Business Park Thrissur.
-The amazing work environment, fantastic team, and supportive team lead make every
-day enjoyable. The administration is incredibly supportive, ensuring a smooth and
-efficient workflow. The Go Green campus and office cleanliness add to the overall
-positive atmosphere. Free food, diverse projects with social commitments, and regular
-vacation opportunities make it an enriching experience.”
-      </HighlightsTestimonialItem>
+Embracing a DevSecOps culture means transforming how your organization approaches security. We advocate for a mindset where security is a shared responsibility among all team members, from developers to operations staff. By incorporating security training and awareness programs, we equip your team with the knowledge to identify and mitigate risks throughout the development process. This holistic approach not only strengthens your software security but also fosters a culture of accountability and vigilance.
+  </HighlightsTestimonialItem>
       <HighlightsItem
         colSpan={[1, null, 2]}
         title="Innovation and Comprehensive Solutions:"
@@ -175,36 +169,41 @@ vacation opportunities make it an enriching experience.”
         <Text color="muted" fontSize="lg">
       
         <br/>
-        At Plus IT Business Park, we are passionate about leveraging the latest technologies to deliver a comprehensive suite of services tailored to meet your digital needs. 
-        Our team of experts is dedicated to staying ahead of industry trends, ensuring that your business benefits from cutting-edge web and app development, effective digital marketing strategies, and reliable cloud solutions. By integrating these services, 
-        we create a seamless experience that boosts engagement, drives conversions, and fosters long-term success for your brand. Experience the difference with our innovative approach to your business growth!
-        
+        Choosing PITBP for your UI design means partnering with a team committed to creating intuitive and impactful user experiences.
+         We understand that great design goes beyond aesthetics; it’s about functionality and user satisfaction. Our expertise in user behavior allows us to craft interfaces that are not only visually appealing but also easy to navigate. 
+         We prioritize a user-centric approach, ensuring that every design element serves a purpose and enhances usability. With our collaborative mindset, we work closely with you to bring your vision to life, delivering designs that resonate with your audience. 
+         <br/>
         <br/>
-        <br/>
+      We Build With
         
-        Technologies We Work With
-
         </Text>
-        
+
 
         <Wrap mt="8">
           {[
-            "Web Development",
-            "Mobile App Development",
-            "Cyber Security",
-            "Digital Marketing",
-            "App Deployment",
-            "UI/UX Development",
-            "Cyber Forensics",
-            "Server Management",
-            "Cloud Solutions",
-            "Graphic Design",
-            "Search Engine Optimization (SEO)",
-            "Content Management Systems (CMS)",
-            "E-commerce Development",
-            "Blockchain Development",
+            "Continuous Integration (CI)",
+            "Automated Testing",
+            "CD",
+            "SAST & DAST",
+            "Container Security",
+            "Configuration Management",
+            "Vulnerability Assessment",
+            "Threat Modeling",
+            "Risk Assessment",
             "Penetration Testing",
-            "DevSecOps"
+            "Agile Development",
+            "DevOps Toolchain",
+            "Change Management",
+
+
+
+            "Jenkins ",
+            "GitLab CI",
+            "Kubernetes ",
+            "PagerDuty ",
+            "Terraform",
+            
+            "SonarQube "
 
           ].map((value) => (
             <Tag
@@ -218,8 +217,6 @@ vacation opportunities make it an enriching experience.”
             </Tag>
           ))}
         </Wrap>
-
-
       </HighlightsItem>
     </Highlights>
   );
@@ -236,7 +233,7 @@ const FeaturesSection = () => {
           textAlign="left"
           as="p"
         >
-          Areas We Work with
+          Why US ?
           <Br /> 
         </Heading>
       }
@@ -244,76 +241,73 @@ const FeaturesSection = () => {
         <>
          
           <Br />
-          At PLUS IT Park, we are committed to harnessing the latest technologies to elevate your business in the digital landscape. 
-          Our expertise spans the development of dynamic websites, intuitive mobile applications, and sophisticated software solutions, including ERP systems and progressive web apps. 
-          We embrace cutting-edge tools to deliver innovative solutions tailored to your unique needs. In addition to development, we prioritize your online visibility by implementing best practices for SEO and digital marketing, ensuring your brand effectively reaches and engages your target audience. With a focus on creating impactful digital experiences, 
-          we’re dedicated to turning your vision into reality and driving tangible results for your business.
-        </>
+          When you choose PITBP for your DevSecOps needs, you are partnering with a dedicated team that prioritizes security throughout the software development lifecycle. Our expertise in integrating advanced tools like Jenkins, GitLab CI, and SonarQube ensures seamless continuous integration and delivery while identifying vulnerabilities early. We leverage industry-leading solutions such as Fortify and Checkmarx for static application security testing, alongside dynamic tools like OWASP ZAP and Snyk to protect your applications from real-time threats. Our commitment to secure infrastructure is backed by Terraform and Kubernetes, enabling us to provision and manage environments securely. With a focus on automating security measures and fostering collaboration across development, operations, and security teams, PITBP empowers you to build resilient applications that meet the highest security standards. Trust us to enhance your security posture and navigate the complexities of DevSecOps with confidence.  
+   </>
       }
       align="left"
       columns={[1, 2, 3]}
       iconSize={4}
       features={[
         {
-          title: "Web Development.",
+          title: "Vulnerability Scanning ",
           icon: FiTerminal ,
           description:
-            "We create visually striking and performance-driven websites that adapt seamlessly across all devices, ensuring your online presence stands out in today’s digital landscape.",
+            "Utilize automated tools to scan systems and networks for known vulnerabilities, ensuring timely identification of security risks.",
           variant: "inline",
         },
         {
-          title: "Mobile App Development ",
+          title: "Penetration Testing",
           icon: FiTerminal,
           description:
-            "Empower your business with tailor-made mobile applications, built to deliver a user-friendly experience and optimized for both Android and iOS platforms.",
+            "Simulate real-world attacks to assess the security posture of applications, networks, and systems, revealing potential weaknesses.",
           variant: "inline",
         },
         {
-          title: "UI/UX Design",
+          title: "Compliance Assessments ",
           icon: FiTerminal ,
           description:
-            "Our design experts focus on user-centric interfaces, ensuring each touchpoint not only looks great but enhances the overall customer journey for higher engagement.",
+            "Ensure that systems and processes comply with relevant regulations and standards, such as GDPR, HIPAA, or PCI-DSS.",
           variant: "inline",
         },
         {
-          title: "DevOps & Automation",
+          title: "Environment Variable Management",
           icon: FiTerminal,
           description:
-            "Our DevOps services streamline your software delivery, automating tasks to improve collaboration, speed, and the reliability of your deployments, reducing time to market.",
+            "Store sensitive configuration values, such as API keys and database credentials, in environment variables instead of hardcoding them in the source code.",
           variant: "inline",
         },
         {
-          title: "Employee Development Programs",
+          title: "Access Control Policies",
           icon: FiTerminal,
-          description:"Access tailored development programs that align with your career goals and aspirations.",
+          description:"Implement strict access control policies to ensure that only authorized personnel and applications can access sensitive secrets.",
           variant: "inline",
         },
         {
-          title: "Custom Software Development ",
-          icon: FiTerminal,
-          description:
-            "We build bespoke software solutions tailored to your specific business needs, helping you streamline operations, improve efficiency, and gain a competitive edge with personalized technology.",
-          variant: "inline",
-        },
-        {
-          title: "Blockchain Solutions ",
+          title: "Audit Logging",
           icon: FiTerminal,
           description:
-            "Explore secure, transparent, and tamper-proof blockchain solutions tailored for industries like finance, supply chain, and more, adding trust and efficiency to your operations",
+            " Enable detailed logging of all access to secrets, allowing organizations to track who accessed what secrets and when for accountability..",
           variant: "inline",
         },
         {
-          title: "Digital Marketing Services",
+          title: "Continuous Security Monitoring ",
           icon: FiTerminal,
           description:
-            "Boost your brand’s visibility and reach with our end-to-end digital marketing strategies, combining SEO, PPC, social media, and content marketing to drive results.",
+            "Implement ongoing monitoring solutions to quickly identify and respond to new vulnerabilities as they arise.",
           variant: "inline",
         },
         {
-          title: "Server Maintenance & Support",
+          title: "Use of Secure Libraries",
           icon: FiTerminal,
           description:
-            "Ensure uptime and security with our proactive server management services, including 24/7 monitoring, routine updates, and troubleshooting for seamless operations.",
+            "Utilize well-maintained and vetted libraries and frameworks to avoid known vulnerabilities and ensure best practices are followed.",
+          variant: "inline",
+        },
+        {
+          title: "Secure Coding Guidelines",
+          icon: FiTerminal,
+          description:
+            "Follow established secure coding guidelines, such as the OWASP Secure Coding Practices, to ensure that security considerations are integrated into the development process.",
           variant: "inline",
         },
         

@@ -73,8 +73,8 @@ const CareerPage: NextPage = () => {
   return (
     <Box>
       <SEO
-        title="Join The Team | PITBP"
-        description="Free SaaS landingspage starter kit"
+        title="Join The Team | PITBP "
+        description="Want to be the part of the team ? Find Your Right Oppurtunity Here"
       />
       <Box>
         <HeroSection />
@@ -186,7 +186,52 @@ vacation opportunities make it an enriching experience.”
         At Plus IT Business Park (PITBP), we boast an impressive overall rating of 5.0 highlighted as a key strength. 
         While our employees appreciate the stability and assurance of working here, company culture,  presents opportunities for enhancement.
          We invite you to delve into detailed reviews by job profile, department, and location to gain firsthand insights into what it’s like to be part of our innovative team, showcasing our commitment to empowering employees and fostering a collaborative work environment.
+        <br>
+        
+        </br>
+        <br/>
+        <b>
+        <a href="https://www.ambitionbox.com/overview/plus-it-park-overview">To Know Us More about our Work Culture</a>
+        </b>
+          
+        <br/>
+        
+          <br/>
+
+Why to Join Us
+    
+        
+       
         </Text>
+
+        
+
+        <Wrap mt="8">
+          {[
+            "Opportunity to work with cutting-edge technologies",
+            "Exposure to innovative product development.",
+            "Flexible work culture and remote options.",
+            "Collaborative and inclusive team culture.",
+            "Flat hierarchy with open communication.",
+            "Global exposure",
+            "Diverse projects",
+            "Skill development",
+            "Freedom to experiment and innovate.",
+            "Mentorship from industry experts and leaders.",
+            "Competitive salary and performance bonuses"
+
+          ].map((value) => (
+            <Tag
+              key={value}
+              variant="subtle"
+              colorScheme="purple"
+              rounded="full"
+              px="3"
+            >
+              {value}
+            </Tag>
+          ))}
+        </Wrap>
         
       </HighlightsItem>
     </Highlights>
