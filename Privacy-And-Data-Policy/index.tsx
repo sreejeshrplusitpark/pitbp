@@ -51,6 +51,7 @@ import {
   FiTrendingUp,
   FiUserPlus,
 } from "react-icons/fi";
+import dynamic from 'next/dynamic';
 import { Features } from "components/features";
 import { BackgroundGradient } from "components/gradients/background-gradient";
 import { Faq } from "components/faq";
